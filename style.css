@@ -1,0 +1,56 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    margin: 2vw;
+}
+
+h2 {
+    margin-left: 44%;
+}
+
+body {
+    background-color: #bcf4f5;
+}
+
+.Program-Boxes-All {
+    width: 100vw;
+    height: 35vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+
+} 
+
+.Program-Boxes {
+    width: 23vw;
+    height: 15vw;
+    background-color: white;
+    display: flex;
+    align-self: center;
+}
+
+.Program-Boxes-Color1 {
+    width: 23vw;
+    height: 3vw;
+    background-color: #b4ebca;
+    display: flex;
+    align-self: flex-end;
+}
+.Program-Boxes-Color2 {
+    width: 23vw;
+    height: 3vw;
+    background-color: #d9f2b4;
+    display: flex;
+    align-self: flex-end;
+}
+.Program-Boxes-Color3 {
+    width: 23vw;
+    height: 3vw;
+    background-color: #d3fac7;
+    display: flex;
+    align-self: flex-end;
+}
