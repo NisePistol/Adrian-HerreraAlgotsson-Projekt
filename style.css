@@ -1,6 +1,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -9,7 +10,7 @@
 }
 
 .Program-Boxes-All {
-    width: 100vw;
+    width: 100%;
     height: 35vw;
     margin: auto;
     display: flex;
@@ -45,16 +46,24 @@
     background-color: #d3fac7;
 }
 
+.Intresse-Anmälan {
+    margin-left: 40vw;
+    width: 20vw;
+    height: 2vw;
+    border-color: black;
+    background-color: white;
+}
+
 .Slide1 {
-    background-color: #d3fac7;
+    background-color: rgb(230, 230, 230);
     width: 100%;
-    height: 680px;
+    height: 100vh;
     padding: 15px;
 }
 
 .Slide2 {
-    background-color: #bcf4f5;
+    background-color: rgb(243, 241, 241);
     width: 100%;
-    height: 655px;
+    height: 100vh;
     padding-top: 50px;
 }
