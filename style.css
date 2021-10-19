@@ -54,6 +54,23 @@
     background-color: white;
 }
 
+.Text-Background {
+    background-color: red;
+    width: 40vw;
+    height: 60vh;
+    margin-top: 35px;
+    border-radius: 30px;
+}
+
+.Text-Background1 {
+    background-color: green;
+    width: 40vw;
+    height: 120vh;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    border-radius: 30px;
+}
+
 .Slide1 {
     background-color: rgb(230, 230, 230);
     width: 100%;
@@ -67,3 +84,37 @@
     height: 100vh;
     padding-top: 50px;
 }
+
+body {
+    background-color: white;
+}
+
+h1 {
+    margin-left: 33%;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.Intresse-Backgrounds {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Intresse-Form-Item {
+    margin: 50px;
+}
+
+.Intresse-Boxes {
+    display: flex;
+    justify-content: start;
+}
+
+.Intresse-Box-Item {
+    margin-right: 20px;
+}
+
+.Intresse-Box-Textarea {
+    width: 400px;
+    height: 30px;
+}
+
