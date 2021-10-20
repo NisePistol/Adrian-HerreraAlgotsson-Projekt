@@ -11,10 +11,12 @@
     <img src="/Bilder/Rousseau Gymnasiet loga skiss.png">
     <div class="Intresse-Backgrounds">
         <div class="Text-Background0">
-            <h2>Är du intresserad av vårat gymnasium?</h2>
+            <h2 class="Intresse-h2">Är du intresserad av Rousseau gymnasiet?</h2>
+            <p>Gör en intresseanmälan för att få aktuella nyheter om skolan, påminnelser inför event och mer information om programmet du är intresserad av. Fält markerade med en * är obligatoriska.
+            </p>
         </div>
         <div class="Text-Background1">
-            <h1>Intresseanmälan</h1>
+            <h2 class="Intresse-Title">Intresseanmälan</h2>
             <form action="" method="get">
                 <div class="Intresse-Form-Item">
                     <ul type="none">
@@ -56,32 +58,89 @@
                 <div class="Intresse-Form-Item">
                     <ul type="none">
                         <li>
-                            Vilket program är du intresserad av?
+                            Vilket/Vilka program är du intresserad av?
                         </li>
                         <li>
                             <div class="Intresse-Boxes">
                                 <div class="Intresse-Box-Item">
                                     <label>
-                                        <input type="checkbox">
-                                    </label>Estet
+                                        <input class="Intresse-Box-Input" type="checkbox">
+                                        Estet
+                                    </label>
                                 </div>
                                 <div class="Intresse-Box-Item">
                                     <label>
-                                        <input type="checkbox">
-                                    </label>Natur
+                                        <input class="Intresse-Box-Input" type="checkbox">
+                                        Natur
+                                    </label>
                                 </div>
                                 <div class="Intresse-Box-Item">
                                     <label>
-                                        <input type="checkbox">
-                                    </label>Teknik
+                                        <input class="Intresse-Box-Input" type="checkbox">
+                                        Teknik
+                                    </label>
                                 </div>
                             </div>
                         </li>
                     </ul>
                 </div>
+
+                <div class="Intresse-Form-Item">
+                    <ul type="none">
+                        <li>
+                            Vilket år börjar du gymnasiet?*
+                        </li>
+                        <li>
+                            <div class="Intresse-Boxes">
+                                <div class="Intresse-Box-Item">
+                                    <label>
+                                        <input class="Intresse-Box-Input" type="radio" name="Year" required>
+                                        2021
+                                    </label>
+                                </div>
+                                <div class="Intresse-Box-Item">
+                                    <label>
+                                        <input class="Intresse-Box-Input" type="radio" name="Year">
+                                        2022
+                                    </label>
+                                </div>
+                                <div class="Intresse-Box-Item">
+                                    <label>
+                                        <input class="Intresse-Box-Input" type="radio" name="Year">
+                                        2023
+                                    </label>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="Intresse-Form-Item">
+                    <ul type="none">
+                        <li>
+                            Samtycke*
+                        </li>
+                        <li>
+                            <div class="Intresse-Boxes">
+                                <div class="Intresse-Box-Item">
+                                    <label>
+                                        <input class="Intresse-Box-Input" type="checkbox" required>
+                                        <div class="Samtycke-Text">
+                                            Jag samtycker till att mina personuppgifter samlas in och behandlas för att NTI Gymnasiet ska kunna registrera min anmälan och samtycker till att mina personuppgifter samlas in och behandlas för att NTI Gymnasiet ska kunna skicka ut riktad information.
+                                        </div> 
+                                    </label> 
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="Intresse-Form-Item">
+                    <a href="https://youtu.be/dQw4w9WgXcQ" target="_blank"><p>Varför behöver vi eran information?</p></a>
+                </div>
+                <div class="Intresse-Form-Item">
+                    <button class="Intresse-Button">Skicka</button>
+                </div>
             </form>
         </div>
     </div>
-
 </body>
 </html>
