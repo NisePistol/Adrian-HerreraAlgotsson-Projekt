@@ -12,15 +12,15 @@
 
 .Program-Boxes-All {
     width: 100%;
-    height: 35vw;
     margin: auto;
+    margin: 15vh 0vh 17vh;
     display: flex;
     justify-content: space-around;
 } 
 
 .Program-Boxes {
     width: 23vw;
-    height: 15vw;
+    height: 33vh;
     background-color: white;
     display: flex;
     flex-direction: column;
@@ -33,7 +33,6 @@
 .Program-Boxes-Colors {
     width: 100%;
     height: 8px;
-    background-color: #b4ebca;
 }
 
 .Program-Boxes-Color1 {
@@ -81,7 +80,7 @@
     background-color: rgb(243, 241, 241);
     width: 100%;
     height: 100vh;
-    padding-top: 4vw;
+    padding: 4vw 0vw 4vw;
 }
 
 body {
@@ -169,12 +168,12 @@ a {
     width: 40vw;
 }
 
-
 footer a {
     display: block;
     border: 1px black solid;
     background-color: white;
-    padding: 25px;
+    padding: 1vw;
     width: max-content;
     margin: auto; 
+    text-align: center;
 }
