@@ -56,8 +56,7 @@
 
 .Text-Background0 {
     width: 45vw;
-    border-radius: 30px;
-    padding: 30px;
+    padding: 0px 30px 30px 30px;
 }
 
 .Text-Background1 {
@@ -70,14 +69,13 @@
 }
 
 .Slide1 {
-    background-color: rgb(230, 230, 230);
+    background-color: #d3fac7;
     width: 100%;
     height: 100vh;
-    padding: 1vw;
 }
 
 .Slide2 {
-    background-color: rgb(243, 241, 241);
+    background-color: #Fafaf1;
     width: 100%;
     height: 100vh;
     padding: 4vw 0vw 4vw;
@@ -93,7 +91,7 @@ body {
 }
 
 .Intresse-Form-Item {
-    margin: 50px;
+    margin: 8%;
 }
 
 .Intresse-Boxes {
@@ -102,12 +100,12 @@ body {
 }
 
 .Intresse-Box-Item {
-    margin-right: 20px;
+    margin-right: 2%;
 }
 
 .Intresse-Box-Textarea {
     width: 90%;
-    height: 35px;
+    height: 5vh;
 }
 
 .Intresse-Box-Input {
@@ -148,6 +146,7 @@ input {
 
 a {
     text-decoration: none;
+    color: black;
 }
 
 .Intresse-Text {
@@ -157,23 +156,77 @@ a {
 }
 
 .Teknik-h1 {
-    font-size: 50px;
+    font-size: 7vh;
     text-align: center;
     margin: 25px 25px 50px 25px;
 }
 
 .Teknik-Brödtext {
-    margin: 10vw 0px 0px 5vw;
-    padding: 10px;
+    margin: 2vh 0px 0px 10vw;
+    padding: 1vw;
     width: 40vw;
 }
 
 footer a {
     display: block;
     border: 1px black solid;
+    border-radius: 5px;
     background-color: white;
-    padding: 1vw;
+    padding: 1vw 3vw;
     width: max-content;
     margin: auto; 
     text-align: center;
+}
+
+.video {
+    margin-top: 5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    align-self: center;
+}
+
+.Teknik-Button {
+    margin: 10vh 0vw 20vh ;
+}
+
+.Startsida-H1 {
+    text-align: center;
+    font-size: 5vw;
+    
+}
+
+.Mellansträck {
+    width: 70%;
+    height: 2vh;
+    background-color: #ff7a7a;
+    margin: auto;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}
+
+.Startsida-H2 {
+    font-size: 3vw;
+    text-align: center;
+}
+
+.Border-Color {
+    width: max-content;
+    padding: 3vh;
+    margin: auto;
+    border-top: 1vh #ff7a7a solid;
+    border-left: 1vh #ff7a7a solid;
+    border-radius: 2vw;
+}
+
+.Intresse {
+    top: 0;
+    font-size: 30px;
+    text-align: right;
+    position: sticky;
+}
+
+.logga {
+    width: 80%;
 }
