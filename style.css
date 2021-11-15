@@ -101,11 +101,13 @@ body {
 
 .Intresse-Box-Item {
     margin-right: 2%;
+    display: flex;
 }
 
 .Intresse-Box-Textarea {
     width: 90%;
     height: 5vh;
+    font-size: 20px
 }
 
 .Intresse-Box-Input {
@@ -229,4 +231,16 @@ footer a {
 
 .logga {
     width: 80%;
+}
+
+.logga-2 {
+    width: 20%;
+}
+
+.Intresse-text-main {
+    font-size: 2vw;
+}
+
+.Homepage-Logo {
+    
 }
