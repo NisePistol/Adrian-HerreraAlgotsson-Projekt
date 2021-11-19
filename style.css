@@ -241,6 +241,40 @@ footer a {
     font-size: 2vw;
 }
 
-.Homepage-Logo {
-    
+.Slide3 {
+    background-color: #d3fac7;
+    width: 100%;
+    height: 100vh;
+    padding: 4vw 0vw 4vw;
+}
+
+.Program-Boxes-slide3 {
+    width: 23vw;
+    height: 50vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    align-self: center;
+    padding: 10px;
+}
+
+.slide3-text {
+    font-size: 10vw;
+}
+
+.Lärare {
+    text-align: center;
+    font-size: 5vw;
+}
+
+.h1-logga {
+    display: flex; 
+    align-items: center;
+}
+
+.Bilder-Text {
+    display: flex;
+    align-items: center;
 }
