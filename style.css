@@ -164,7 +164,7 @@ a {
 }
 
 .Teknik-Brödtext {
-    margin: 2vh 0px 0px 10vw;
+    margin: 2vh 0px 0vh 10vw;
     padding: 1vw;
     width: 40vw;
 }
@@ -294,3 +294,4 @@ footer a {
 .Färg {
     background-color: #ff7a7a;
 }
+
