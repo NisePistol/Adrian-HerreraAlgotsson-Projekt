@@ -261,7 +261,7 @@ footer a {
 }
 
 .slide3-text {
-    font-size: 10vw;
+    font-size: 2vw;
 }
 
 .Lärare {
@@ -277,4 +277,20 @@ footer a {
 .Bilder-Text {
     display: flex;
     align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.Lärare-Text {
+    width: 50vw;
+    padding: 50px;
+}
+
+.Lärare-h2 {
+    font-size: 2vw;
+    text-align: center;
+}
+
+.Färg {
+    background-color: #ff7a7a;
 }
