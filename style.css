@@ -5,6 +5,10 @@
     font-family: 'Roboto', sans-serif;
 }
 
+body {
+    background-color: #F1EFE4;
+}
+
 .Program-Title {
     text-align: center;
     font-size: 5vw;
@@ -75,14 +79,10 @@
 }
 
 .Slide2 {
-    background-color: #Fafaf1;
+    background-color: #F1EFE4;
     width: 100%;
     height: 100vh;
     padding: 4vw 0vw 4vw;
-}
-
-body {
-    background-color: white;
 }
 
 .Intresse-Backgrounds {
@@ -163,7 +163,7 @@ a {
     margin: 25px 25px 50px 25px;
 }
 
-.Teknik-Brödtext {
+.Brödtext {
     margin: 2vh 0px 0vh 10vw;
     padding: 1vw;
     width: 40vw;
@@ -191,6 +191,9 @@ footer a {
 
 .Teknik-Button {
     margin: 10vh 0vw 20vh ;
+}
+.Pedagog-Button {
+    margin: 10vh 30vw 20vh 0vw;
 }
 
 .Startsida-H1 {
@@ -282,16 +285,50 @@ footer a {
 }
 
 .Lärare-Text {
-    width: 50vw;
-    padding: 50px;
+    width: 37vw;
+    padding: 40px;
+    line-height: 3vh;
+    background-color: #F1EFE4;
+    border-radius: 30px;
 }
 
 .Lärare-h2 {
     font-size: 2vw;
     text-align: center;
+    padding: 30px;
 }
 
 .Färg {
     background-color: #ff7a7a;
 }
 
+.Lärare-Knapp {
+    margin: 2vw;
+}
+
+.Pedagogik-h1 {
+    font-size: 6vw;
+    background-color: #ff7a7a;
+    text-align: center;
+}
+
+.Pedagogik-Text1 {
+    font-size: 4vh;
+    line-height: 5vh;
+    color: #7dbb6a;
+    width: 40vw;
+    margin-bottom: 3vh;
+}
+
+.Waldorf-Brödtext {
+    font-size: 3vh;
+    line-height: 4vh;
+    width: 30vw;
+    color: #666;
+}
+
+.Pedagogik-Brödtext {
+    margin: 10vh 0px 0vh 13vw;
+    padding: 1vw;
+    width: 60vw;
+}
