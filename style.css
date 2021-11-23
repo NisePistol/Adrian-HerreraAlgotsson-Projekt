@@ -331,4 +331,10 @@ footer a {
     margin: 10vh 0px 0vh 13vw;
     padding: 1vw;
     width: 60vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.bild {
+    order: 0;
 }
