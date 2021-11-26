@@ -338,3 +338,17 @@ footer a {
 .bild {
     order: 0;
 }
+
+.Pedagogik-Div {
+    display: flex;
+}
+
+.Pedagogik-Bilder {
+    height: 50vw;
+    width: 75vw;
+    margin-top: 10vw;
+}
+
+.Pedagogik-Bild {
+    width: 80%;
+}
