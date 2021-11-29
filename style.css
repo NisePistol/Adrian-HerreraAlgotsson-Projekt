@@ -352,3 +352,14 @@ footer a {
 .Pedagogik-Bild {
     width: 80%;
 }
+
+.Om-H1 {
+    text-align: center;
+    font-size: 5vw;
+    margin-top: 5vh;
+}
+
+.Om-H2 {
+    text-align: center;
+    font-size: 2vw;
+}
